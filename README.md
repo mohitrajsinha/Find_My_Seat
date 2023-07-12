@@ -30,14 +30,14 @@ flutter clean
 flutter pub get
 ```
 
-##Usage
+## Usage
 Once the Seat Finder app is running, you can use the following steps to search for seats:
 
 - Enter a seat number in the search box.
 - Tap the "Search" button or press Enter on your keyboard.
 - The grid layout will scroll to the searched seat and highlight it.
 
-##Contributing
+## Contributing
 Contributions to the Seat Finder app are welcome and encouraged! If you'd like to contribute, please follow these steps:
 
 Fork the repository.
@@ -46,7 +46,7 @@ Fork the repository.
 - Push your changes to your fork.
 - Submit a pull request to the main repository.
 
-##Contact
+## Contact
 If you have any questions, suggestions, or feedback, please feel free to contact the project maintainer at mohitrajsinha321@gmail.com.
 
   
