@@ -13,12 +13,13 @@ class SeatFinderApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+     final Brightness brightness = MediaQuery.of(context).platformBrightness;
     return MaterialApp(
+      theme: brightness == Brightness.dark
+        ? ThemeData.dark()
+        : ThemeData.light(),
       debugShowCheckedModeBanner: false,
       title: 'Seat Finder',
-      theme: ThemeData(
-        primarySwatch: Colors.lightBlue,
-      ),
       routes: {
         "/": (context) => const WelcomePage(),
         MyRoutes.menuroute: (context) => const Menu(),
